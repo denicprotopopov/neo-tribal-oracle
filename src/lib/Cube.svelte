@@ -18,6 +18,7 @@
     let cubeMaterial = new MeshStandardMaterial();
     let cube;
     let cubeMesh;
+    
   
     onMount(() => {
       cubeMesh = cube.getMesh();

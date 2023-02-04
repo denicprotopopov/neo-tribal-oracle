@@ -13,5 +13,8 @@
     "svelte": "^3.55.1",
     "svelthree": "^0.119.0-5",
     "vite": "^4.1.0"
+  },
+  "dependencies": {
+    "three": "^0.149.0"
   }
 }

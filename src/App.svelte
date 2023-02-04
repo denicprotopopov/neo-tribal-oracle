@@ -2,6 +2,7 @@
   import Card from './lib/Card.svelte';
   import Cube from './lib/Cube.svelte';
   import Knot from './lib/Knot.svelte';
+  import VanillaThree from './lib/VanillaThree.svelte';
 
   let rotatingCube
   let rotatingKnot;
@@ -16,6 +17,10 @@
 
     <Card>
       <Knot bind:this={rotatingKnot} />
+    </Card>
+
+    <Card>
+      <VanillaThree />
     </Card>
   
 </main>
